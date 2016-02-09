@@ -1,0 +1,18 @@
+.axis path,
+.axis line,.x-axis {
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdges;
+}
+.axis,.x-axis text {
+  font-family: sans-serif;
+  font-size: 11px;
+}
+
+.header{
+        text-align: center;
+}
+
+#description{
+        text-align: center;
+}
