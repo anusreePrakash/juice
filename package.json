@@ -1,0 +1,25 @@
+{
+  "name": "juice_analysis",
+  "version": "1.0.0",
+  "description": "Just a juice analysis of 3 months data",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anusreePrakash/juice.git"
+  },
+  "author": "Anusree Viraj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anusreePrakash/juice/issues"
+  },
+  "homepage": "https://github.com/anusreePrakash/juice#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4"
+  }
+}

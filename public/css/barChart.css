@@ -1,0 +1,27 @@
+.axis path,
+.axis line,.x-axis {
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdges;
+}
+.axis,.xAxis text {
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.header{
+        text-align: center;
+}
+
+#description{
+        text-align: center;
+}
+
+.describe{
+  font-size:20px;
+  text-decoration:underline;
+}
+
+.yAxis line {
+  stroke: lightgray;
+}

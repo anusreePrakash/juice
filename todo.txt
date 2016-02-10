@@ -1,5 +1,6 @@
 -------------------- Questions to be answered ------------------
+
 - most sold juice in three months.
-- most juices sold with sugar without sugar.
+- most juices sold with sugar without sugar in one bar chart.
 - at what time more juice is selling?
 - according to the day.
