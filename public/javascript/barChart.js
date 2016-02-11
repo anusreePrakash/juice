@@ -33,10 +33,17 @@ var creatGraph = function(){
        .attr("transform", "translate("+(width/2-85)+",25)");
 
   d3.json('./juice_orders.json',function(data){
-    foo = data
-    var juiceData = d3.nest().key(function(d){return  d.drinkName })
-      .rollup(function(leaf){return leaf.length})
-      .entries(data);
+
+    var juiceData =d3.nest()
+    			.key(function(d){
+    				return d.drinkName
+    			})
+    			.rollup(function(leaf) {
+    				return d3.sum(leaf, function(d) { return d.quantity; })
+    			})
+    			.entries(data);
+    foo = juiceData;
+
     juiceData = juiceData.filter(function(d){
       if(toBeRemoved.indexOf(d.key) == -1)
         return d;
@@ -68,7 +75,7 @@ var creatGraph = function(){
        .attr("transform", "translate("+ 20 +","+(30)+")rotate(-90)")
        .text("Quantity");
 
-       svg.append("g")
+    svg.append("g")
        .attr("class", "yAxis axis")
        .attr("transform", "translate(0,0)")
        .call(yAxis)

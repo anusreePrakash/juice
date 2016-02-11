@@ -4,15 +4,24 @@
   stroke: black;
   shape-rendering: crispEdges;
 }
-.axis,.x-axis text {
+.axis,.xAxis text {
   font-family: sans-serif;
-  font-size: 11px;
+  font-size: 15px;
 }
 
 .header{
-        margin-left: 33%;
+        text-align: center;
 }
 
-.header h1{
-  margin-left:9% ;
+#description{
+        text-align: center;
+}
+
+.describe{
+  font-size:10px;
+  text-decoration:underline;
+}
+
+.yAxis line {
+  stroke: lightgray;
 }
