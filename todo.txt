@@ -4,3 +4,5 @@
 - most juices sold with sugar without sugar in one bar chart.
 - at what time more juice is selling?
 - according to the day.
+- according to the month.
+- relational data.
