@@ -55,7 +55,7 @@ var createChart = function(){
         svg.selectAll("svg")
         svg.append("path")
             .attr("d", arc.endAngle(function (d) {return (twoPi * (1 - ((d.values - d.sugarQuantity) / d.values)));}))
-            .style("fill", "4296A9");
+            .style("fill", "#4296A9");
 
         // Add the site names to the center of the chart
         svg.append("text")

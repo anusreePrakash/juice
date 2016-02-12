@@ -64,7 +64,7 @@ var creatGraph = function(){
         .call(xAxis)
         .selectAll("text")
             .style("text-anchor", "end")
-            .attr("dx", "-.8em")
+            .attr("dx", "-.10em")
             .attr("dy", ".15em")
             .attr("transform", function(d) {
                 return "rotate(-60)"
@@ -98,7 +98,6 @@ var creatGraph = function(){
           d3.select('.describe')
             .text("");
       })
-
 
   })
 
